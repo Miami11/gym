@@ -1,0 +1,407 @@
+.navi {
+    margin: 15px;
+}
+
+container {
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 20px;
+
+    background-repeat: no-repeat;
+
+}
+
+.navi-banner {
+    float: right;
+}
+
+.banner {
+    color: white;
+    background-image: url("index-00.jpg");
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.programs {
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 30px;
+    width: 60%;
+    text-align: left;
+
+}
+
+.navi li {
+    float: left;
+}
+
+.navi li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi li a:hover:not(.active) {
+    color: red;
+}
+
+.active {
+    color: red;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2em;
+
+}
+
+
+.item {
+    margin: 10px;
+    float: left;
+}
+
+.item-col4-pix {
+    width: 220px;
+    height: 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    float: none;
+}
+
+.go-banner {
+    padding: 300px 100px;
+
+}
+
+.button {
+    /*background-color: #ff9797;*/
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cusor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: #ff6479;
+    color: #fff;
+
+}
+
+.button1:hover {
+    background-color: #ff3f64;
+}
+
+.button2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.item-col3 {
+    width: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+.numbers {
+    background-image: url(index-07.jpg);
+    width: 1200px;
+    height: auto;
+    padding: 50px 0;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.numbers h2{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+h4.facility {
+    width: 50%;
+    /*text-align: center;*/
+    font-size: xx-small;
+    color: #6b7386;
+    padding-left: 25%;
+}
+.numbers :after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.numbers .numberGroup:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.numberGroup{
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.numbers .num:after{
+    content:'';
+    display:block;
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    margin: 30px auto 0;
+}
+
+.numbers .num{
+    font-size: 30px;
+}
+
+
+.titleB h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 50px 0 0 0;
+    padding: 60px 0 0 0;
+}
+
+.titleA h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 50px 0 0 0;
+    padding: 60px 0 0 0;
+
+}
+.item-col4 sup{
+    font-size: 10px;
+}
+
+.coaches {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coach-text h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.coach-text h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #9b9b9b;
+}
+
+
+.coach-text {
+    text-align: center;
+}
+
+.coaches .item-col4-coache {
+    margin: 5px;
+    float: left;
+    width: 200px;
+    display: block;
+
+}
+
+.coaches .item-col4-coache img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.coaches .pink:hover {
+    background-size: contain;
+    background-color: #ff6479;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.pink{
+    padding: 10px;
+    margin: auto;
+    background-color: #333333;
+    color: white;
+
+}
+
+.item-col4-coache {
+    padding: 15px;
+    text-align: center;
+
+}
+
+/*.item-col3 {*/
+/*-webkit-column-count: 3; !* Chrome, Safari, Opera *!*/
+/*-moz-column-count: 3; !* Firefox *!*/
+/*column-count: 3;*/
+/*-webkit-column-gap: 40px; !* Chrome, Safari, Opera *!*/
+/*-moz-column-gap: 40px; !* Firefox *!*/
+/*column-gap: 40px;*/
+/*-webkit-column-rule-style: solid; !* Chrome, Safari, Opera *!*/
+/*-moz-column-rule-style: solid; !* Firefox *!*/
+/*column-rule-style: solid;*/
+/*-webkit-column-rule-width: 1px; !* Chrome, Safari, Opera *!*/
+/*-moz-column-rule-width: 1px; !* Firefox *!*/
+/*column-rule-width: 1px;*/
+
+/*}*/
+
+.people {
+    background-color: #f4f4f4;
+    text-align: center;
+    float: left;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-col3 img {
+    border-radius: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+.item-col3 {
+    padding: 20px;
+    width: 20%;
+    float: left;
+    font-size: 5px;
+    border: 2px solid #e1e0e0;
+    margin: 50px;
+
+}
+
+.item-col3 .name {
+    font-size: small;
+
+    font-weight: 300;
+    line-height: 1px;
+}
+
+.name img{
+    vertical-align: middle;
+}
+
+.item-col3 .ppltext {
+    text-align: left;
+    font-size: x-small;
+}
+
+
+
+.heading {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+img5 {
+    width: 1200px;
+    padding-bottom: 100px;
+
+}
+
+img5 img{
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    float: left;
+    height: 300px;
+    width: 1200px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    background-image: url(footer-01.jpg);
+    color: white;
+    font-size: small;
+    padding: 100px;
+    background-size: cover;
+}
+
+.footer .item-col4-a {
+    width: 230px;
+    height: auto;
+    text-align: left;
+}
+
+.foot {
+    font-size: 1em;
+}
+
+.CONTACT li{
+    padding-left: 100px;
+    background: no-repeat left top / 50px 50px;
+    height: 80px;
+}
+.CONTACT .addr{background-image: url("pin.png")}
+.CONTACT .tel{background-image: url("pin.png")}
+.contact .mail{background-image: url("pin.png")}
+
+.item-col4-a:after{
+    content:'';
+    display:block;
+    clear: both;
+}
+
+.item-col4-a:after{
+    content:'';
+    display:block;
+    clear: both;
+}
