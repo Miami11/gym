@@ -279,6 +279,17 @@ h4.facility {
 
 }
 
+.month{
+    color: #6b7487;
+    margin-left: -45px;
+    float: left;
+}
+
+.time{
+    text-align: right;
+    margin-right: 35px;
+}
+
 /*.item-col3 {*/
 /*-webkit-column-count: 3; !* Chrome, Safari, Opera *!*/
 /*-moz-column-count: 3; !* Firefox *!*/
@@ -364,7 +375,7 @@ img5 img{
 .footer {
     float: left;
     height: 300px;
-    width: 1200px;
+    width: 100%;
     display: inline-block;
     margin: 0px;
     text-align: center;
@@ -379,6 +390,16 @@ img5 img{
     width: 230px;
     height: auto;
     text-align: left;
+}
+.month {
+    color: #6b7487;
+    margin-left: -45px;
+    float: left;
+}
+
+.time {
+    text-align: right;
+    margin-right: 35px;
 }
 
 .foot {
@@ -404,4 +425,21 @@ img5 img{
     content:'';
     display:block;
     clear: both;
+}
+
+.post1date{
+    color: #6b7487;
+}
+
+.post1img img{
+    width: 60px;
+    float: left;
+    border-radius: 15px;
+}
+
+.post1txt {
+    float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+
 }
